@@ -4,3 +4,6 @@ mixin icon(name)
     - _addClassAttribute('spin', 'icon-spin', attributes)
     - _addClassAttribute('pulse', 'icon-pulse', attributes)
     i(class=['icon', 'icon-'+name])&attributes(attributes)
+
+mixin glyphicon(name)
+    i(class=['glyphicon', 'glyphicon-'+name])&attributes(attributes)
